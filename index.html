@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <nav class="nav-bar">
+        <button class="neon-button"><i class="fas fa-home"></i><a id="links" href="#home">Home</a></button>
+        <button class="neon-button"><i class="fas fa-user"></i><a id="links" href="#about-me">About Me</a></button>
+        <button class="neon-button"><i class="fas fa-graduation-cap"></i><a id="links" href="#education">Education</a></button>
+        <button class="neon-button"><i class="fas fa-cogs"></i><a id="links" href="#skills">Skills</a></button>
+        <button class="neon-button"><i class="fas fa-briefcase"></i><a id="links" href="#internships">Internships</a></button>
+        <button class="neon-button"><i class="fas fa-project-diagram"></i><a id="links" href="#projects">Projects</a></button>
+        <button class="neon-button"><i class="fas fa-envelope"></i><a id="links" href="#contactme">Contact Me</a></button>
+    </nav>
+    <section class="profile-section" id="home">
+        <div class="profile-container">
+            <div class="profile-img-container">
+                <img src="./images/harshini dp.jpg" alt="Katta Harshini" class="profile-img">
+            </div>
+            <div class="profile-info">
+                <h1 class="animated-text">Katta Harshini</h1>
+                <p class="animated-text">Recently Graduated</p>
+                <p><strong>Email:</strong> harshiniikatta@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://github.com/Harshu2605" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="http://www.linkedin.com/in/harshini-katta-7b02b7284" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="./images/harshini resume katta.pdf" class="resume-btn" download>
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+        </div>
+        </section>
+        <!-- About Me Section -->
+    <section id="about-me" class="about-me-section">
+        <h2 class="about-me-heading"><i class="fas fa-user"></i>About Me</h2>
+        <div class="about-me-container">
+            <!-- About Me Image Card -->
+            <div class="about-me-card">
+                <img src="./images/harshu dp.jpg" alt="Profile Image" class="about-me-img">
+            </div>
+
+            <!-- About Me Content Card -->
+            <div class="about-me-card about-me-content" id="card">
+                <h3>Hi, I'm Katta Harshini</h3>
+                <p>
+                    I'm a passionate Computer Science graduate with an interest in software development, 
+                    web technologies, and machine learning. I love working on challenging projects and
+                    constantly learning new skills.
+                </p>
+                <p>
+                    I strive to make a positive impact through my work, and I'm always looking for new opportunities
+                    to grow as a developer and contribute to meaningful projects.
+                </p>
+                <p>
+                    Beyond coding, I enjoy solving complex puzzles and brainstorming creative solutions to real-world problems. 
+                    My curiosity drives me to explore emerging technologies, and I take pride in staying up-to-date with the latest trends in the tech industry.
+                </p>
+                <p>
+                    I believe in the power of collaboration and have experience working in diverse teams to build innovative projects. 
+                    My strong communication skills and commitment to excellence have been key in delivering successful outcomes.
+                </p>
+                <p>
+                    When I'm not coding, you can find me indulging in my hobbies like listening to music, reading about new tech innovations, 
+                    or contributing to open-source projects. I'm always eager to take on new challenges and push my boundaries.
+                </p>
+                <p>
+                    Looking forward to connecting with like-minded individuals and contributing to impactful ventures that drive change 
+                    and innovation in the digital world.
+                </p>
+                
+            </div>
+        </div>
+    </section>
+    <section class="educationsection" id="education">
+        <div class="education-section">
+            <h2><i class="fas fa-graduation-cap"></i>Education Details</h2>
+            <div class="cards-container">
+                <!-- SSC Card -->
+                <div class="card">
+                    <h3>SSC</h3>
+                    <div class="overlay">
+                        <h3>SSC</h3>
+                        <p><strong>School:</strong> Ravindra Bharathi School</p>
+                        <p><strong>Address:</strong> Gudivada,521322.</p>
+                        <p><strong>CGPA:</strong> 9.8</p>
+                        <p><strong>Specialization:</strong> General Studies</p>
+                    </div>
+                </div>
+    
+                <!-- Intermediate Card -->
+                <div class="card">
+                    <h3>Intermediate</h3>
+                    <div class="overlay">
+                        <h3>Intermediate</h3>
+                        <p><strong>College:</strong> Sri Chaithanya Junior College</p>
+                        <p><strong>Address:</strong> Gudivada,521322.</p>
+                        <p><strong>CGPA:</strong> 9.1</p>
+                        <p><strong>Specialization:</strong> MPC</p>
+                    </div>
+                </div>
+    
+                <!-- Graduation Card -->
+                <div class="card">
+                    <h3>Graduation</h3>
+                    <div class="overlay">
+                        <h3>Graduation</h3>
+                        <p><strong>College:</strong> VKR, VNB & AGK College of Engineering</p>
+                        <p><strong>Address:</strong> Gudivada,521322.</p>
+                        <p><strong>CGPA:</strong> 7.09</p>
+                        <p><strong>Specialization:</strong> Computer Science and Engineering</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </section>
+    <section id="skills">
+        <h2><i class="fas fa-cogs"></i>Skills</h2>
+        <div class="skills-container">
+            <div class="skill" data-percentage="85">
+                <div class="outer">
+                    <div class="inner">
+                        <img src="./images/letter-c.png" alt="C Language">
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                    <defs>
+                        <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+            </div>
+            <div class="skill" data-percentage="80">
+                <div class="outer">
+                    <div class="inner">
+                        <img src="./images/c-.png" alt="C++">
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                    <defs>
+                        <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+            </div>
+            <div class="skill" data-percentage="100">
+                <div class="outer">
+                    <div class="inner">
+                        <img src="./images/java.png" alt="Java">
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                    <defs>
+                        <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+            </div>
+            <div class="skill" data-percentage="90">
+                <div class="outer">
+                    <div class="inner">
+                        <img src="./images/python.png" alt="Python">
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                    <defs>
+                        <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+            </div>
+            <div class="skill" data-percentage="90">
+                <div class="outer">
+                    <div class="inner">
+                        <img src="./images/html.png" alt="HTML">
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                    <defs>
+                        <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+            </div>
+            <div class="skill" data-percentage="90">
+                <div class="outer">
+                    <div class="inner">
+                        <img src="./images/css-3.png" alt="CSS">
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                    <defs>
+                        <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+            </div>
+            <div class="skill" data-percentage="80">
+                <div class="outer">
+                    <div class="inner">
+                        <img src="./images/java-script.png" alt="JavaScript">
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                    <defs>
+                        <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+            </div>
+            <div class="skill" data-percentage="100">
+                <div class="outer">
+                    <div class="inner">
+                        <img src="./images/mysql.png" alt="MySQL">
+                    </div>
+                </div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                    <defs>
+                        <linearGradient id="GradientColor">
+                            <stop offset="0%" stop-color="#e91e63" />
+                            <stop offset="100%" stop-color="#673ab7" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                </svg>
+            </div>
+        </div>
+      </section>
+      <section id="internships" class="internships">
+        <h2 class="section-title"><i class="fas fa-briefcase"></i>Internship Experience</h2>
+        <div class="internship-container">
+          <div class="internship-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-content">
+              <h3 class="internship-title">Python Full Stack Development</h3>
+              <p class="company-name">Kodnest</p>
+              <p class="duration">May 2023 - July 2023</p>
+              <p class="description">As a Python Full Stack Development Intern at Kodnest, I contributed to both front-end and back-end development using frameworks like Django and Flask. I built responsive user interfaces with HTML, CSS, and JavaScript, integrated databases such as PostgreSQL, and deployed applications on cloud platforms like Heroku and AWS. This experience allowed me to enhance my skills in developing scalable web applications and collaborating within a team environment.</p>
+            </div>
+          </div>
+          <div class="internship-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-content">
+              <h3 class="internship-title">Java Full Stack Development</h3>
+              <p class="company-name">Jspiders</p>
+              <p class="duration">July 2024 - Present</p>
+              <p class="description">During my Java Full Stack Development Internship at Kodnest, I worked on developing both the front-end and back-end of web applications. I used Java with frameworks like Spring Boot for the server-side and integrated relational databases such as MySQL. On the front-end, I utilized HTML, CSS, and JavaScript to build interactive and responsive interfaces. I also collaborated with the team on version control using Git and helped deploy applications on cloud platforms like AWS, gaining valuable experience in full-stack development.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <h2><i class="fas fa-project-diagram"></i>My Projects</h2>
+        
+        <div class="project-card">
+            <div class="project-header">
+                <img src="./images/python.png" alt="Blockchain" class="blockchain-image">
+                <h1 id="project-title">Project 1: Modeling and predicting cyber hacking breaches Using machine learning</h1>
+            </div>
+            <h4>Project Description</h4>
+            <div class="description-container">
+                <div class="description">
+                    <p>
+                        The project aims to develop a machine learning-based model that can predict and identify potential cybersecurity breaches before they occur.
+                        By analyzing historical attack data, user behaviors, and network traffic patterns, this system predicts vulnerabilities and malicious activities that could lead to cyberattacks.
+                        It employs machine learning algorithms such as classification and regression models to predict future breaches, providing early warnings for system administrators to take necessary precautions.
+                      </p>
+                      <p><strong>Technologies Used:</strong> Python, Scikit-learn, TensorFlow, Keras, Matplotlib, Seaborn</p>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+          <div class="project-header">
+              <img src="./images/html.png" alt="python" class="blockchain-image">
+              <h1 id="project-title">Project 2: Temperature converter</h1>
+          </div>
+          
+          <h4>Project Description</h4>
+          <div class="description-container">
+              <div class="description">
+                <p class="project-description">
+                    The Temperature Converter is a web-based tool that allows users to convert temperatures between Celsius, Fahrenheit, and Kelvin. Built using HTML, CSS, and JavaScript, this tool provides an easy-to-use and interactive interface for users to input a temperature value and instantly view its equivalent in the other two units. The project leverages HTML to structure the layout, CSS to create a responsive design, and JavaScript to handle the conversion logic. Users can input a temperature, select the current unit, and click a button to view the converted values in real time. The converter also ensures a seamless experience across various devices by maintaining responsiveness, making it both user-friendly and practical. Future improvements could include adding more temperature units such as Rankine, enhancing the user interface with advanced animations, and providing the option to select multiple units for conversion. This project serves as a valuable tool for educational purposes, everyday use, and professional fields where temperature conversions are often required.
+                  </p>
+              </div>
+          </div>
+      </div>
+      <div class="project-card">
+        <div class="project-header">
+            <img src="./images/html.png" alt="python" class="blockchain-image">
+            <h1 id="project-title">Project 3: Calculator</h1>
+        </div>
+        <h4>Project Description</h4>
+        <div class="description-container">
+            <div class="description">
+                <p>
+                    The Calculator is a web-based application built using HTML, CSS, and JavaScript, designed to provide users with a simple, intuitive interface for performing basic arithmetic calculations, such as addition, subtraction, multiplication, and division. The project uses HTML to structure the calculator’s layout, CSS for styling and creating a visually appealing design, and JavaScript to implement the logic for performing calculations in real time. The calculator features a clear button to reset the input, along with number buttons and operators that allow users to perform calculations step by step. Additionally, it includes a display screen that shows the current input and the result of the calculation. The project emphasizes usability with a clean, minimalistic design, and is fully responsive to ensure it works well across devices like desktops, tablets, and smartphones. With future enhancements, features such as scientific functions, memory storage for results, and improved animations could be added to further improve its functionality and user experience. This project serves as an excellent tool for both learning the basics of web development and providing a practical utility for everyday use.
+                </p>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="contactme">
+        <h2>Contact Me <i class="fas fa-headset"></i></h2>
+        <footer id="footer">
+            <div class="footer-card">
+                <div class="form-container">
+                    <h2>Contact Form</h2>
+                    <form id="contact-form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+                <div class="gif-container">
+                    <img src="./images/contact-us-content.gif" alt="Animated GIF" />
+                </div>
+            </div>
+            <div class="contact-details">
+                <h3>Contact Details</h3>
+                <p><i class="fas fa-user"></i>Name: Katta Harshini</p>
+                <br>
+                <p><i class="fas fa-envelope"></i>Email: harshiniikatta@gmail.com</p>
+                <br>
+            </div>
+        </footer>
+        <div class="copyright">
+          <h5><i class="fas fa-copyright"></i> Katta Harshini</h5>
+          <h5>Developed and Deployed in 2024</h5>
+      </div>
+    </section>
+<script src="./scripts.js"></script>
+</body>
+</html>
+
